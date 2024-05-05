@@ -389,6 +389,7 @@ form input:focus, textarea:focus{
   .about_content{
     padding: 25px 50px;
     gap: 50px;
+    height: auto;
   }
   
 
