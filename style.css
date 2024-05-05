@@ -460,7 +460,7 @@ form input:focus, textarea:focus{
   }
 
   .header{
-    padding: 15px 40px 0 40px;
+    display: none;
   }
   
   .logo img{
