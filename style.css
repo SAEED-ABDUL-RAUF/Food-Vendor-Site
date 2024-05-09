@@ -20,11 +20,16 @@ p{
   background-repeat: no-repeat;
 }
 
+.home_navigations{
+  display: none;
+}
+
 .header{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 100px 0 100px;
+  
 }
 
 .section{
@@ -38,6 +43,7 @@ p{
 .logo img{
   height: 80px;
 }
+
 
 ul{
   list-style-type: none;
@@ -54,6 +60,7 @@ a{
 
 .navigations{
   display: flex;
+  justify-content: center;
   background-color: brown;
   border-radius: 10px;
 }
@@ -349,6 +356,7 @@ form input:focus, textarea:focus{
   font-size: 20px;
 }
 
+
   .header{
     padding: 20px 50px 0 50px;
   }
@@ -467,15 +475,42 @@ form input:focus, textarea:focus{
   .header{
     display: none;
   }
-  
-  .logo img{
-    height: 40px;
+
+  .hamburger{
+    background-color: unset;
+    padding: 20px;
+    cursor: pointer;
   }
 
+  .hmg_line{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: brown;
+    margin-bottom: 5px;
+  }
+
+  .home_navigations{
+    display: none;
+    left: 70px;
+    position: absolute;
+    top: 20px;
+    background-color: brown;
+    padding: 15px;
+  }
+
+
+  /* .slide_navigation {
+    display: block;
+    top: 20px;
+    left: 70px;
+  } */
+  
   .section{
     padding: 15px 40px;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
   }
 
   .title{
@@ -484,6 +519,14 @@ form input:focus, textarea:focus{
 
   .home_btns{
     margin-top: 10px;
+  }
+
+  .btn1{
+    padding: 5px 10px;
+  }
+
+  .home_Description img{
+    height: 18px;
   }
 
   .food_picture img{
@@ -518,6 +561,6 @@ form input:focus, textarea:focus{
     display: none;
   }
   .copyright1{
-    display: flex;
+    display: block;
   }
 }
