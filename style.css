@@ -480,6 +480,7 @@ form input:focus, textarea:focus{
     background-color: unset;
     padding: 20px;
     cursor: pointer;
+    width: fit-content;
   }
 
   .hmg_line{
